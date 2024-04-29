@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>TOP Form</title>
+</head>
+<body>
+    <div id="banner">
+        <div class="overlay"></div>
+        <div class="logo">
+            <img src="./assets/odin-lined.png" alt="">
+            <p>ODIN</p>
+        </div>        
+        <p class="credits">Photo by Halie West on Unsplash</p>
+    </div>
+    <div id="contact-form">
+        <div>
+            <p>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+            <br>Sign up <em>now</em> to get started.
+            <br><br>You <em>know</em> you want to.</p>
+        </div>
+        <form action="" method="get">
+            <div class="module">
+                <p>Let's do this!</p>
+                <div class="form-inputs">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input type="text" id="firstName" name="firstName">
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input type="text" id="lastName" name="lastName">
+                    </div>
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                        <span></span>
+                    </div>
+                    <div>
+                        <label for="confPass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confPass" name="confPass">
+                    </div>
+                </div>
+            </div>
+            <button type="submit">Create Account</button>
+            <p>Already have an account? <a href="">Log in</a></p>
+        </form>
+    </div>
+</body>
+</html>
