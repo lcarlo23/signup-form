@@ -113,6 +113,7 @@ body {
     flex-direction: column;
     max-width: 300px;
     min-width: 300px;
+    position: relative;
 }
 
 label {
@@ -140,6 +141,8 @@ input:invalid + span::after {
     content: "* Passwords do not match";
     color: red;
     font-size: 0.7rem;
+    position: absolute;
+    bottom: -20px;
 }
 
 input:focus {
